@@ -1,0 +1,63 @@
+.home {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a white background with some transparency */
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.body {
+  background-image: url('../images/pexels-pixabay-289586.jpg');
+  background-size: cover; /* This makes the background image cover the entire page */
+  background-position: center; /* This centers the background image */
+  background-repeat: no-repeat;min-height: 100vh;
+
+}
+
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px
+}
+
+.task div .icon {
+  cursor: pointer;
+}
